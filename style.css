@@ -1,0 +1,185 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main{
+    background: #fff;
+  }
+  
+  .header {
+    display: flex;
+    width: 43em;
+    margin: auto;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+  }
+  
+  h1 {
+      font-family: sans-serif;
+      font-size: 1.3em;
+  }
+  
+  .profile_card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: .5rem 15rem;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 7rem;
+    margin-right: 1rem;
+  }
+  
+  .profile img.profile_img {
+    border-radius: 100%;
+    padding: 5px;
+    border: 5px solid red;
+  }
+  
+  .profile h1.profile_name{
+    text-align: center;
+    margin-top: .5rem;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-family: serif;
+  }
+  
+  .relations {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+  }
+  
+  .posts {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .posts .posts_number {
+    font-weight: bold;
+    font-size: 1.1em
+  }
+  
+  .posts .posts_name {
+    text-transform: capitalize;
+  }
+  
+  .folowers {
+    font-family: sans;
+    text-align: center;
+    margin-left: 1.5rem;
+  }
+  
+  .folowers .folowers_number{
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+  }
+  
+  .folowers .folowers_name{
+    text-transform: capitalize;
+  }
+  
+  .folowing {
+    font-family: sans-serif;
+    margin-left: 1.5rem;
+    text-align: center;
+  }
+  
+  .folowing_number {
+    font-weight: bold;  
+    font-size: 1.1em;
+  }
+  
+  .folowing .folowing_name{
+    text-transform: capitalize;
+  }
+  
+  .description_card {
+    width: 30rem;
+    margin: auto;
+  }
+  
+  .alias {
+    font-size: 1em;
+    color: grey;
+    margin: .4rem;
+    text-transform: capitalize;
+  }
+  
+  .middle_menu {
+    width: 25rem;
+    margin: 1rem auto;
+    display: flex;
+    flext-direction: row;
+    justify-content: space-between;
+  }
+  
+  :is(button) {
+    border: none;
+    border-radius: .5rem;
+    background-color: #e8e8e8;
+    padding: .4rem .8rem;
+    font-weight: bold;
+    text-transform:capitalize;
+    font-family: sans;
+    border: 1px solid rgba(0,0,0, .2)
+  }
+  
+  button:is(:hover, :focus) {
+    background-color: rgb(0, 0, 255);
+    color: #fff;
+    transition: .3s ease-in-out;
+  }
+  
+  button.follow{
+    background-color: rgb(0,0,255);
+    color: #fff;
+  }
+  
+  .menu_icon {
+    width: 20rem;
+    margin: 1rem auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  span.one {
+    border-bottom: 1px solid #000;
+    padding-bottom: .5rem;
+  }
+  
+  :is(.image_galery) img {
+    width: 14rem;
+    height: 14rem;
+    object-fit: cover;
+  }
+  
+  .galery_one {
+    position: relative;
+    width: 14rem;
+    height: 14rem;
+  }
+  
+  .galery_one span {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    color: #fff;
+  }
+  
+  .image_galery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: .5rem;
+    width: 43em;
+    margin: auto;
+  }
